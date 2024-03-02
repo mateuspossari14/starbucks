@@ -1,0 +1,257 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    margin: auto;
+    max-width: 1140px;
+}
+
+.bar {
+    width: 168px;
+    height: 20px;
+    background-color: #006341;
+}
+
+h1 {
+    margin: 0;
+    font-size: 96px;
+    font-weight: bold;
+    line-height: 100px;
+    margin-bottom: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: bold;
+    margin: 10px 20px 0px 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+header .line {
+    height: 10px;
+    background-color: #117050;
+}
+
+.header--area {
+    display: flex;
+    height: 105px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header--left img {
+    width: 64px;
+    height: 64px;
+}
+
+.header--right {
+    display: flex;
+    align-items: center;
+}
+
+.header--search form {
+    display: flex;
+}
+
+.header--search input {
+    outline: 0;
+    width: 100%;
+    max-width: 250px;
+    font-size: 14px;
+    padding: 8px 15px;
+    border: 1px solid #999;
+}
+
+.header--search button {
+    border: 0;
+    cursor: pointer;
+    margin-left: -25px;
+    background-color: transparent;
+}
+
+.header--search button img {
+    width: 16px;
+    height: 16px;
+}
+
+.header--menu {
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.header--menu img {
+    width: 24px;
+    height: 24px;
+}
+
+.banner {
+    height: calc(100vh - 105px);
+    padding: 90px 0px 90px 35px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/bg.jpg);
+}
+
+.banner--images {
+    margin-top: 60px;
+}
+
+.banner--images img {
+    width: 148px;
+    height: 148px;
+    border-radius: 50%;
+    margin-right: 30px;
+    border: 6px solid #117050;
+}
+
+.banner--images img:last-child {
+    margin-right: 0;
+}
+
+.area1--quote {
+    font-weight: 400;
+    margin: 20px 20px 0px 0px;
+}
+
+.button {
+    color: #454545;
+    padding: 10px 30px;
+    margin-top: 55px;
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid #454545;
+}
+
+.button:hover {
+    color: #fff;
+    background-color: #454545;
+}
+
+.area1--img1 {
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/f2.jpg);
+}
+
+.area1--img2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / span 2;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/f1.jpg);
+}
+
+.area2--img1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / span 2;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/f3.jpg);
+}
+
+.area2--img2 {
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/f4.jpg);
+}
+
+.area1,
+.area2,
+.area3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.area1--content,
+.area2--content,
+.area3--content,
+.area4--content {
+    margin: auto;
+    padding: 90px;
+}
+
+.area1--text,
+.area2--text,
+.area3--text,
+.area4--text {
+    width: 450px;
+    line-height: 25px;
+    font-weight: 400;
+    margin: 30px 20px 0px 0px;
+}
+
+.area3--content {
+    width: 100%;
+    padding: 300px 90px;
+    background-size: cover;
+    background-position: left;
+    background-image: url(../images/bg2.jpg);
+}
+
+.area3--img2 {
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/f5.jpg);
+}
+
+.area4 {
+    display: grid;
+    background-color: #e8e9ee;
+    grid-template-columns: 450px 1fr;
+}
+
+.area4--content {
+    max-width: 450px;
+    padding: 150px 90px;
+}
+
+.area4--text {
+    width: 100%;
+}
+
+.area4--img1 {
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/bg3.jpg);
+}
+
+.area5 {
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/bg4.jpg);
+}
+
+footer {
+    color: #fff;
+    height: 300px;
+    padding: 100px;
+    text-align: center;
+    background-color: #333;
+}
+
+footer p a {
+    color: rgb(168, 248, 221);
+}
+
+footer p a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer--paragraph1 {
+    margin-bottom: 120px;
+}
